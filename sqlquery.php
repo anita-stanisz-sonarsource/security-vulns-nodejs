@@ -2,7 +2,7 @@
 
 use Symfony\Component\HttpFoundation\Request;
 
-class Controller
+class Controller-just_changing_something
 {
     /**
      * @var \Doctrine\DBAL\Connection
