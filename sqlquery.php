@@ -11,7 +11,7 @@ class Controller
 
     public function sqlQuery1(Request $request)
     {
-        $userId = $request->get('id');
+          $userId = $request->get('id');
         $sql = "SELECT email FROM user WHERE id='$userId'";
         $statement = $this->connection->prepare($sql);
         $statement->execute();
