@@ -17,6 +17,7 @@ class Controller
         $statement->execute();
         $username = $statement->fetchColumn();
         return $this->json(['email' => $username]);
+        
     }
     
         public function anotherSqlQuery1(Request $request)
